@@ -1,0 +1,8 @@
+@author "MIAGE 2 students"
+VideoGen {
+	
+	mandatory videoseq v0 "v0.mp4"
+	mandatory videoseq v1 "v01.mp4"
+	mandatory videoseq v2 "v02.mp4"
+	mandatory videoseq v3 "v03.mp4"
+}

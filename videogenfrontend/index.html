@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/css.css" />
+
+</head>
+
+<body ng-app="videogenDirective">
+
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand">VideoGen - IDM - HERNANDEZ, ELMAIZI - M2MIAGE ISTIC</h6></a>
+                </div>
+            </div>
+        </nav>
+
+        <div ng-app="VideoGenApp" ng-controller="myCtrlSearch">
+
+            <!-- <div class="col-sm-6"> -->
+                <form id="myForm" name="myForm">
+                    <button class="btn btn-primary btn-sm" ng-click="generateConf()">Generate</button>
+                    <button class="btn btn-primary btn-sm" ng-click="generateRandom()">Generate Random</button>
+                    <hr class="clearfix w-100 d-md-none pb-3">
+
+                    <div ng-repeat="video in videos">
+                        <div ng-if="video.type == 'mandatory'">
+                            <!-- <h4>Mandatory</h4> -->
+                            <input type="hidden" name="video" id="{{ video.id }}" checked="checked" value="{{ video.id }}" />
+                            <img ng-src="{{ video.image }}" alt="{{ video.id }}" class="img-thumbnail" />
+                            <hr class="clearfix w-100 d-md-none pb-3"></br>
+                        </div>
+                        <div ng-if="video.type == 'optional'">
+                            <!-- <h4>Optional</h4> -->
+                            <input type="checkbox" name="video" id="{{ video.id }}">
+                            <img ng-src="{{ video.image }}" alt="{{ video.id }}" class="img-thumbnail" />
+                            <hr class="clearfix w-100 d-md-none pb-3"></br>
+                        </div>
+                        <div ng-if="video.type == 'alternative'">
+                            <!-- <h4>Alternative</h4> -->
+                            <label ng-repeat="n in video.obt">
+                                <div ng-if="n.type == 'alternative'">
+                                    <input type="radio" name="video" id="{{ n.id }}" checked />
+                                    <img ng-src="{{ n.image }}" alt="{{ n.id }}" class="img-thumbnail" />
+                                </div>
+                            </label>
+                            <hr class="clearfix w-100 d-md-none pb-3"></br>
+                        </div>
+                    </div>
+                </form>
+            <!-- </div> -->
+
+            <!-- <div class="col-sm-6" ng-show="show">
+                <div name="refresh">
+                    <video width="400" controls>
+                        <source src="http://localhost:8080/video/output/output.mp4" type="video/mp4">Your browser does
+                        not
+                        support HTML5 video.>
+                    </video>
+                    </br>
+                    <button class="btn btn-primary btn-sm" onclick="location.href='http://localhost:8080/gif/output.gif'"
+                        type="button">
+                        Download Gif</button>
+                </div>
+            </div> -->
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small">
+        <div class="container-fluid text-center text-md-center">
+            <div class="row">
+                <div class="col-md-6 mt-md-0 mt-3">
+                    <h6 class="text-uppercase">M2 MIAGE - IDM - 2018/2019</h6>
+                </div>
+                <hr class="clearfix w-100 d-md-none pb-3">
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <h6>Maykol HERNANDEZ LEON</h6>
+                    <h6>Sohaib ELMAIZI</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Dependencies -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-resource.min.js"></script>
+
+    <!-- VideoGen app -->
+    <script src="js/videogen.js"></script>
+
+
+</body>
+
+</html>

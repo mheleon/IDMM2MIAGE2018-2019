@@ -1,0 +1,5 @@
+file 'src/main/resources/public/video/v1.mp4'
+file 'src/main/resources/public/video/v32.mp4'
+file 'src/main/resources/public/video/v4.mp4'
+file 'src/main/resources/public/video/v5.mp4'
+file 'src/main/resources/public/video/v8.mp4'

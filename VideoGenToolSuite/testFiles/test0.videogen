@@ -1,0 +1,18 @@
+@author "MIAGE 2 students"
+VideoGen {
+	
+	mandatory videoseq v1 "ressources/videos/snus-nu.mp4"
+	optional videoseq v2 "ressources/videos/theSimpsons1.mp4" {
+		probability 50
+		description "This is a description of the optional video"
+	}
+	alternatives v3 {
+		videoseq v31 "ressources/videos/theSimpsons2.mp4" {
+			probability 75
+		}
+		videoseq v32 "ressources/videos/theSimpsons3.mp4" {
+			probability 25
+		}
+	}
+	mandatory videoseq v4 "ressources/videos/theSimpsons4.mp4"
+}

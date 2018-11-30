@@ -1,0 +1,44 @@
+@author "HERNANDEZ - ELMAIZI"
+VideoGen {
+	
+	mandatory videoseq v1 "src/main/resources/public/video/v1.mp4" {
+		description "This is a description of the first mandatory video"
+	}
+	optional videoseq v2 "src/main/resources/public/video/v2.mp4" {
+		probability 5
+		description "This is a description of the optional video"
+	}
+	alternatives v3 {
+		videoseq v31 "src/main/resources/public/video/v31.mp4" {
+			probability 70
+			description "This is a description of the alterative video"
+		}
+		videoseq v32 "src/main/resources/public/video/v32.mp4" {
+			probability 15
+			description "This is a description of the alterative video"
+		}
+		videoseq v33 "src/main/resources/public/video/v32.mp4" {
+			probability 15
+			description "This is a description of the alterative video"
+		}
+	}
+	mandatory videoseq v4 "src/main/resources/public/video/v4.mp4"  {
+		description "This is a description of the last mandatory video"
+	}
+	optional videoseq v5 "src/main/resources/public/video/v5.mp4" {
+		probability 65
+		description "This is a description of the optional video"
+	}
+
+	optional videoseq v6 "src/main/resources/public/video/v6.mp4" {
+		probability 30
+		description "This is a description of the optional video"
+	}
+	optional videoseq v7 "src/main/resources/public/video/v7.mp4" {
+		probability 50
+		description "This is a description of the optional video"
+	}
+	mandatory videoseq v8 "src/main/resources/public/video/v8.mp4"  {
+		description "This is a description of the last mandatory video"
+	}
+}

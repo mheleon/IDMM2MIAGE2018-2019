@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.antlr.runtime_3.2.0.v201101311130.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.apache.commons.cli_1.2.0.v201404270220.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.apache.commons.logging_1.2.0.v20180409-1502.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.apache.log4j_1.2.15.v201012070815.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.compare.core_3.6.300.v20180827-1041.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.compare_3.7.300.v20180827-1041.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.core.commands_3.9.200.v20180827-1727.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.core.contenttype_3.7.100.v20180817-1401.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.core.filebuffers_3.6.300.v20180822-1339.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.core.jobs_3.10.100.v20180817-1215.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.core.resources_3.13.100.v20180828-0158.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.core.runtime_3.15.0.v20180817-1401.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.debug.core_3.13.0.v20180821-1744.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.debug.ui_3.13.100.v20180827-0649.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.e4.ui.workbench3_0.14.200.v20180828-0227.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.emf.codegen.ecore_2.15.0.v20180905-1732.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.emf.codegen_2.14.0.v20180706-1146.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.emf.common.ui_2.14.0.v20180706-1146.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.emf.common_2.15.0.v20180723-1316.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.emf.ecore.change_2.13.0.v20180706-1146.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.emf.ecore.xmi_2.15.0.v20180706-1146.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.emf.ecore_2.15.0.v20180722-1159.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.emf.edit.ui_2.15.0.v20180823-0914.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.emf.edit_2.14.0.v20180823-0456.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.emf.mwe.core_1.3.21.201705291011.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.emf.mwe.utils_1.3.21.201705291011.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.emf.mwe2.language_2.9.1.201705291011.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.emf.mwe2.launch_2.9.1.201705291011.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.emf.mwe2.lib_2.9.1.201705291011.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.emf.mwe2.runtime_2.9.1.201705291011.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.equinox.app_1.3.600.v20180827-1235.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.equinox.common_3.10.100.v20180827-1235.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.equinox.preferences_3.7.200.v20180827-1235.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.equinox.registry_3.8.100.v20180827-1235.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.fx.ide.css.jfx8_3.3.0.201809010700.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.fx.osgi_3.3.0.201809010500.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.jdt.compiler.apt_1.3.300.v20180905-0315.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.jdt.compiler.tool_1.2.300.v20180905-0319.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.jdt.core_3.15.0.v20180905-0317.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.jface.text_3.14.0.v20180824-1140.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.jface_3.14.100.v20180828-0836.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.ltk.core.refactoring_3.9.100.v20180828-0626.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.osgi.compatibility.state_1.1.200.v20180827-1536.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.osgi_3.13.100.v20180827-1536.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.swt.gtk.linux.x86_64_3.108.0.v20180904-1901.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.swt_3.108.0.v20180904-1901.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.text_3.7.0.v20180822-1511.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.ui.editors_3.11.200.v20180822-1511.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.ui.ide_3.14.100.v20180828-1350.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.ui.views_3.9.200.v20180828-0837.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.ui.workbench.texteditor_3.11.100.v20180824-1030.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.ui_3.110.0.v20180828-1350.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.xtend.lib.macro_2.15.0.v20180916-1130.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.xtend.lib_2.15.0.v20180916-1130.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.xtext.builder_2.15.0.v20180916-1016.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.xtext.common.types_2.15.0.v20180916-1104.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.xtext.ide_2.15.0.v20180916-0722.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.xtext.junit4_2.15.0.v20180916-1016.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.xtext.testing_2.15.0.v20180916-0722.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.xtext.ui.codetemplates.ide_2.15.0.v20180916-1016.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.xtext.ui.codetemplates.ui_2.15.0.v20180916-1016.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.xtext.ui.codetemplates_2.15.0.v20180916-1016.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.xtext.ui.shared_2.15.0.v20180916-1016.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.xtext.ui_2.15.0.v20180916-1016.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.xtext.util_2.15.0.v20180916-0722.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.xtext.xbase.ide_2.15.0.v20180916-1104.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.xtext.xbase.junit_2.15.0.v20180916-1016.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.xtext.xbase.lib_2.15.0.v20180916-1130.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.xtext.xbase.testing_2.15.0.v20180916-1104.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.xtext.xbase.ui_2.15.0.v20180916-1016.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.xtext.xbase_2.15.0.v20180916-1104.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.xtext.xtext.generator_2.15.0.v20180916-0722.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.eclipse.xtext_2.15.0.v20180916-0722.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/com.google.inject_3.0.0.v201312141243.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/com.google.guava_21.0.0.v20170206-1425.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/com.ibm.icu_62.1.0.v20180727-1652.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/java10api.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/javax.inject_1.0.0.v20091030.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.hamcrest.core_1.3.0.v20180420-1519.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/org.objectweb.asm_6.2.1.v20180823-1831.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Downloads/test_lib/junit.jar"/>
+	<classpathentry kind="lib" path="/home/mako/Dev/IDM/teaching-MDE-MIAGE1819/videogenbackend/VideoGenToolSuite.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

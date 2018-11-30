@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/css.css" />
+
+</head>
+
+<body ng-app="videogenDirective">
+
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand">VideoGen - IDM - HERNANDEZ, ELMAIZI - M2MIAGE ISTIC</h6></a>
+                </div>
+            </div>
+        </nav>
+        <div class="col-sm-12">
+            <video width="400" controls>
+                <source src="http://localhost:8080/video/output/output.mp4" type="video/mp4">Your browser does
+                not
+                support HTML5 video.>
+            </video>
+            </br>
+            <button class="btn btn-primary btn-sm" onclick="location.href='http://localhost:8080/gif/output.gif'" type="button">
+                Download Gif</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small blue pt-12">
+        <div class="container-fluid text-center text-md-left">
+            <div class="row">
+                <div class="col-md-6 mt-md-0 mt-3">
+                    <h6 class="text-uppercase">M2 MIAGE - IDM - 2018/2019</h6>
+                </div>
+                <hr class="clearfix w-100 d-md-none pb-3">
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <h6>Maykol HERNANDEZ LEON</h6>
+                    <h6>Sohaib ELMAIZI</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Dependencies -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-resource.min.js"></script>
+
+    <!-- VideoGen app -->
+    <script src="js/videogen.js"></script>
+
+
+</body>
+
+</html>

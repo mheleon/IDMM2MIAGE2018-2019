@@ -1,0 +1,29 @@
+@author "MIAGE 2 students"
+VideoGen {
+	
+	mandatory videoseq v0 "v0.mp4"
+	mandatory videoseq v1 "v01.mp4"
+	
+	alternatives v1 {
+		videoseq v11 "v11.mp4"
+		videoseq v12 "v12.mp4"
+		videoseq v13 "v13.mp4"
+	}
+	optional videoseq v2 "v2.mp4"
+	
+	mandatory videoseq v3 "v3.mp4"
+	mandatory videoseq v4 "v4.mp4"
+	
+	optional videoseq v5 "v5.mp4"
+	optional videoseq v6 "v6.mp4"
+	
+	alternatives v7 {
+		videoseq v71 "v71.mp4"
+		videoseq v72 "v72.mp4"
+		videoseq v73 "v73.mp4"
+		videoseq v74 "v74.mp4"
+		videoseq v75 "v75.mp4"
+	}
+	
+	mandatory videoseq v8 "v8.mp4"
+}

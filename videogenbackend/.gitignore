@@ -1,0 +1,16 @@
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.recommenders
+
+### Java ###
+
+# Log file
+*.log
+

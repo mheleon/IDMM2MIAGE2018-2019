@@ -1,0 +1,24 @@
+@author "MIAGE 2 students"
+VideoGen {
+	
+	mandatory videoseq v1 "/Users/macher1/Documents/bref2.mov"
+	optional videoseq v2 "v2folder/v2.mp4" {
+		duration 180
+		probability 75
+		description "Video v2"
+		filter flip horizontal
+		text {
+			content "Text into a video"
+			position TOP
+		}
+	}
+	alternatives v3 {
+		videoseq v31 "bla.mp4" {
+			probability 50
+		}
+		videoseq v32 "blabla.mp4" {
+			probability 50
+		}
+	}
+	mandatory videoseq v4 "/Users/macher1/Documents/bref2.mov"
+}
