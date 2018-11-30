@@ -1,3 +1,10 @@
+# Auteurs
+
+* HERNANDEZ LEON Maykol
+* ELMAIZI Sohaib
+
+----
+
 # IDMM2MIAGE2018-2019
 Projet IDM M2MIAGE 2018/2019
 * VideoGenToolSuite - Rendu des Tps
